@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap" rel="stylesheet">        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Dott.ssa Ludovica Soggia</title>
+    </head>
+    <!-- JAVASCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.full.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.min.css" />
+    
+    <script>
+      $(document).ready(function() {
+        $("#visit-date").datetimepicker({
+          format: "d-m-Y H:i",
+          minDate: 0,
+          maxDate: "+1M"
+        });
+      });
+    </script>
+
+    <body>
+        <header>
+            <h2 class="h2__header">Dott.ssa Ludovica Soggia</h2>
+            <nav class="menu_or">
+                <ul>
+                    <li><a href="index.html" target="_self">Home</a></li>
+                    <li><a href="#">Psicalisi</a></li>
+                    <li><a href="#">Ricerca</a></li>
+                    <li><a href="contacts.html" target="_self">Contatti</a></li>
+                </ul>
+            </nav>
+        </header>
+            <section class="normal">
+                <center>
+                <h1 class="h1__title">Contatti</h1>
+                </center>
+            </section>
+            <section class="Form">
+                <form action="prenotazione.php" method="POST">
+                    <label for="nome">Nome:</label>
+		            <input type="text" id="nome" name="nome" required><br><br>
+		
+		            <label for="cognome">Cognome:</label>
+		            <input type="text" id="cognome" name="cognome" required><br><br>
+		
+		            <label for="email">Email:</label>
+		            <input type="email" id="email" name="email"><br><br>
+		
+		            <label for="telefono">Telefono:</label>
+		            <input type="tel" id="telefono" name="telefono" required><br><br>
+		
+		            <label for="messaggio">Messaggio:</label><br>
+		            <textarea id="messaggio" name="messaggio" rows="4" cols="50"></textarea><br><br>
+
+                    <label for="data">Data e ora della visita:</label>
+                    <input type="text" id="data" name="data" required>
+
+		            <input type="submit" value="Invia">
+                </form>
+            </section>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,267 @@
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+.div__chi_sono{
+	background-color: #fcfcfc;
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h2, nav {
+	display: inline-block;
+}
+
+nav ul{
+	list-style: none;
+  	margin: 0;
+  	padding: 0;
+  	text-align: center;
+	margin-left: 300px;
+	
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav li a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #000;
+  }
+
+a{
+	color: red;
+}
+
+.h2__header{
+	padding-left: 250px;
+}
+
+nav ul li a {
+	color: #e76666;
+	font-weight: bold;
+	font-size: 14px;
+	padding-right: 10px;
+}
+
+.h2__header {
+	font-size: 16px;
+}
+
+.h1__title{
+	font-size: 65px;
+	text-align: center;
+}
+
+.foto{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+  
+img{
+	margin: auto;
+}
+
+p{
+	display: inline-block; /* Impedisce al testo di occupare l'intera larghezza del contenitore */
+  	text-align: left;
+}
+
+.chi__sono{
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	font-size: 32px;
+	margin-left: -600px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.div__panna{
+	margin: 0px;
+	padding: 0px;
+	border-radius: 20px 20px 20px 20px;
+	margin: 50px;
+	background-color: #e2e2e2;
+}
+
+.il_mio_lavoro{
+	font-size: 32px;
+	text-align: left;
+	padding-left: 10px;
+	margin: 0px;
+	padding: 0px;
+}
+.menu_or{
+	margin-right: 250px;
+}
+
+.text__1{
+	font-family: 'Poppins', sans-serif;
+	margin-left: 100px;
+	line-height: 2;
+}
+
+.div__contact{
+	border-radius: 20px 20px 20px 20px;
+	margin: 50px;
+	background-color: #cccacacc;
+	list-style: none;
+  	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	height: 100px;
+}
+.div__contact li{
+	margin-left: 50px;
+}
+
+.div__chi_sono h1{
+	margin-left: -630px;
+}
+  
+.form h1{
+	text-align: center;
+	margin-top: 50px;
+}
+  
+.form form {
+	margin: 0 auto;
+	width: 400px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+  
+.form label {
+	/*display: block;*/
+	margin-bottom: 60px;
+	margin: 80px;
+	font-weight: bold;
+	color: #555;
+	max-width: 150px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: center;
+}
+  
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+
+textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+  
+input[type="submit"] {
+	background-color: #f09a78;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+  
+input[type="submit"]:hover {
+	background-color: #e76666;
+}
+
+.xdsoft_datetimepicker {
+    width: 220px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    z-index: 9999;
+}
+  
+.xdsoft_datetimepicker.xdsoft_noselect {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.xdsoft_datetimepicker.xdsoft_ {
+    box-shadow: none;
+    border: none;
+}
+  
+.xdsoft_datetimepicker .xdsoft_calendar {
+    width: 220px;
+}
+  
+.xdsoft_datetimepicker .xdsoft_timepicker {
+    width: 220px;
+    margin-top: 5px;
+}
+  
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box {
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    height: 205px;
+}
+  
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box .xdsoft_time {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 13px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    background-color: #f4f4f4;
+    box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.8), 0 1px 0 rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+/*
+@media screen and (max-width: 767px) {
+	 Layout per schermi di dimensioni inferiori a 768px
+	header {
+	  text-align: center;
+	}
+	
+	ul {
+	  flex-direction: column;
+	}
+	
+	li {
+	  margin: 10px 0;
+	}
+	
+	main {
+	  flex-direction: column;
+	}
+	
+	section {
+	  margin: 20px 0;
+	}
+}
